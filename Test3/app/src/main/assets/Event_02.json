@@ -1,0 +1,112 @@
+[
+  {
+    "processesId" : 0,
+    "text" : "7시가 조금 넘었다.. 잠긴 서랍을 열 열쇠는 찾지 못했지만 얼추 살펴본 것 같다. 별거 아닌 그 연구원의 소지품을 가지고 이런저런 생각을 하려하니 머리가 멍해졌다. 숨을 골라 쉬고 정신을 차려보려 노력하는 와중에 저편에서 희미하게 발자국 소리가 들려온다. 소리가 점점 커지는 것 같은데..",
+    "conversation" : null,
+    "choice" : [
+      {
+        "case0" : "누군지 모르니 일단 숨어 있어 본다.",
+        "processId": 1,
+        "subConversation" : null,
+        "subText" : null,
+        "openCal" : null,
+        "moveJson" : null,
+        "database" : null
+
+      },
+      {
+        "case0" : "소리가 가까워 위험하지만 정면돌파 한다.",
+        "processId" : 2,
+        "subConversation" : null,
+        "subText" : null,
+        "openCal" : null,
+        "moveJson" : null,
+        "database" : null
+      },
+      {
+        "case0" : "서랍 열쇠를 한 번 더 찾아본다.",
+        "processId" : 3,
+        "subConversation" : null,
+        "subText" : null,
+        "openCal" : null,
+        "moveJson" : null,
+        "database" : null
+      }
+    ]
+  },
+  {
+    "processesId" : 1,
+    "text" : "점점 발소리가 더 커지는게 정말 이쪽으로 오는 것 같다. 복도 측에서 보이지 않는 책상 아래로 일단 몸을 숨겼다. 점점 가까워져온다. 가까워진다.. 다시 멀어진다..? 컸던 발소리가 점차 줄어들고 멀어졌다. 지나가는 사람이었나보다. 책상 아래로 숨어든건 어린 시절 이후로 처음인 것 같다. 나가자. 몸이 뻐근하니 숨었을 때와는 다르게 쿵쿵 거리며 책상 밖으로 나왔다. 먼지를 툴툴 털고 고개를 들었다. 언제 온걸까. 개발 연구원과 눈이 딱 마주쳤다.",
+    "conversation" : "여기서 뭐하고 계세요?",
+    "choice" : [
+      {
+        "case0" : "(침착하게) 심심해서 숨바꼭질 한 번 해봤습니다.",
+        "processId" : null,
+        "subConversation" : "..굳이 여기서요?\n..네\n..나가주세요.\n게임에서.",
+        "subText" : null,
+        "openCal" : null,
+        "moveJson" : "ending0.json",
+        "database" : null
+      },
+      {
+        "case0" : "(당황하며) 뭘 전해드리러 왔다가 물건이 떨어져서요.",
+        "processId" : null,
+        "subConversation" : "이 시간에요? 전달하실 거 저한테 주시면 제가 전달 드리겠습니다.\n아니.. 그게 ..\n그게 아닌거군요.\n나가주세요..\n게임에서",
+        "subText" : null,
+        "openCal" : null,
+        "moveJson" : "ending0.json",
+        "database" : null
+      }
+    ]
+  },
+  {
+    "processesId" : 2,
+    "text" : "문을 조용히 열고 밖을 바라봤다. 저기 멀리서 누군가가 오고 있는데, 얼른 여기서 나가 반대편으로 가는게 좋겠다. '누구십니까' 말을 걸다니. 천천히 몸을 돌려 상대가 누군지 바라봤다. 경비원.",
+    "conversation" : "아 안녕하십니까.\n어 어떻게 여기서 나오십니까?",
+    "choice" : [
+      {
+        "case0" : "(침착하게) 전달해야 할 문서가 있어서요.",
+        "processId" : null,
+        "subConversation" : "아 그러시군요. 수고하십니다. 얼른 퇴근하십시오.\n네 수고하세요.",
+        "subText" : null,
+        "openCal" : null,
+        "moveJson" : "Event_03.json",
+        "database" : null
+      },
+      {
+        "case0" : "(침착하게) 빌린 물건이 있어 돌려드리려고 왔습니다.",
+        "processId": null,
+        "subConversation": "아 그러시군요. 수고하십니다. 얼른 퇴근하십시오.\n네 수고하세요.",
+        "subText": null,
+        "openCal": null,
+        "moveJson": "Event_03.json",
+        "database" : null
+      }
+    ]
+  },
+  {
+    "processesId" : 3,
+    "text" : "그 C 씨는 열쇠 같은 걸 잘 챙겨다니는 스타일은 아니었지. 분명 본인 책상 주변에 열쇠가 있을텐데.. 책상 위 상자 안에 연필꽂이가 보였다. 손에 들고 안을 살펴보려는데 연필꽂이가 기울어지면서 필기구들이 바닥으로 떨어진다. 어라.. 왜 하나 뿐이지..?",
+    "conversation" : null,
+    "choice" : [
+      {
+        "case0" : "일단 하나만 주워 꽂아둔다.",
+        "processId" : null,
+        "subConversation" : null,
+        "subText" : "열쇠랄 건 없는군. 다른 직원이 회수해간건가.. 복도 측 창밖으로 경비원이 지나가는게 보였다. 다행히 경비원이었군. 마땅히 보이는 곳도 없고, 연구원이 오기 전에 나가는게 좋겠어.",
+        "openCal" : null,
+        "moveJson" : "Event_03.json",
+        "database" : null
+      },
+      {
+        "case0" : "책상 아래에 들어갔는지 찾아본다.",
+        "processesId" : null,
+        "subConversation" : null,
+        "subText" : "어두워서 잘 보이지 않는다. 스마트폰 후레시를 켜서 비춰보는데. 반짝? 볼펜 두 자루와 열쇠를 찾았다. 열쇠를 맞춰보니 서랍이 열렸다. 여러가지 종류의 사탕과 초콜릿이 있고, 신문 한 부와 스트레스 완화제가 있다. 신문을 집었다. 조금은 오래된 신문 1면에는 우리 회사가 실려있다. 내용을 보니 작년 즈음의 일이다. 웃고 있는 대표의 얼굴과 함께, 범세계적으로 우리 회사의 약이 수출됐고, 그 결과로 연구 개발을 지지하는 투자자들이 늘어났다는 내용이 실려있다. .. 회사는 승승장구 했는데 그때의 개발연구원들은 모두 왜 이렇게 된건지. 신문 옆에는 연구개발팀이 기획한 스트레스 완화제가 있다. 백신으로 회사가 유명해지고 난 후에 개발된 첫 약품이라 회사 측에서도 광고를 많이 하고 판매량도 높았다. 뜯어지지 않은 새 상품 옆에 몇 개 먹은 듯한 타 회사의 스트레스 완화제가 있다. 아무도 먹어주지 않을 사탕과 초콜릿을 두고 이제 빠져나가야겠다.",
+        "openCal" : null,
+        "moveJson" : "Event_03.json",
+        "database" : null
+      }
+    ]
+  }
+]

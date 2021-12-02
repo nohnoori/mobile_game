@@ -1,0 +1,36 @@
+[
+  {
+    "processesId": 0,
+    "text": "드디어 치료제를 찾았다. 이 치료제를 어떻게 쓰면 좋을까?",
+    "conversation": null,
+    "choice": [
+      {
+        "case0": "많은 사람들을 살릴 수 있도록 무료로 배포한다.",
+        "processId": null,
+        "subConversation": null,
+        "subText": "다행히 치료제가 빨리 생산되어 많은 사람들을 살릴 수 있었고, 나는 어딜 가나 알아보는 국민 영웅이 되었다.",
+        "openCal": null,
+        "moveJson": "ending0.json",
+        "database" : null
+      },
+      {
+        "case0": "C 씨에게 먼저 치료제를 주어 살린다.",
+        "processId": null,
+        "subConversation": null,
+        "subText": "C 씨에게 치료제를 먹였지만 끝내 살리지 못했다. 하나 있는 치료제를 C 씨에게 먹였기 때문에 이제 더 이상을 치료제는 없다. C 씨를 살려 치료제를 생산하려고 했던 계획은 모두 물거품이 되었다. ",
+        "openCal": null,
+        "moveJson": "ending0.json",
+        "database" : null
+      },
+      {
+        "case0": "돈을 받고 회사에 넘긴다.",
+        "processId": null,
+        "subConversation": null,
+        "subText": "치료제를 손에 넣고 나니 고민이 되었다. 치료제를 배포해 빠르게 생산할지 회사에 돈을 받고 팔지.... 하지만 돈을 포기할 수는 없었다. 비록 치료제가 늦게 생산되긴 했지만 나는 그 뒤로 평생 일하지 않아도 놀고먹을 수 있을 정도의 재산을 가지게 되었다.",
+        "openCal": null,
+        "moveJson": "ending0.json",
+        "database" : null
+      }
+    ]
+  }
+]

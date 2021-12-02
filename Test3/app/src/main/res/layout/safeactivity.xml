@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="30dp"
+              android:fontFamily="@font/subtitles"
+              android:textSize="20dp"
+              android:text="금고의 비밀번호를 입력하세요"/>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:inputType="number"
+                  android:maxLength="1"
+                  android:nextFocusDown="@id/two"
+                  android:textSize="30dp"
+                  android:id="@+id/one"/>
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:inputType="number"
+                  android:maxLength="1"
+                  android:textSize="30dp"
+                  android:nextFocusDown="@id/three"
+                  android:id="@+id/two"/>
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:inputType="number"
+                  android:maxLength="1"
+                  android:textSize="30dp"
+                  android:nextFocusDown="@id/four"
+                  android:id="@+id/three"/>
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:inputType="number"
+                  android:maxLength="1"
+                  android:textSize="30dp"
+                  android:imeOptions="actionDone"
+                  android:id="@+id/four"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button android:id="@+id/submit"
+                android:text="확인"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button android:id="@+id/cancel"
+                android:text="이전"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

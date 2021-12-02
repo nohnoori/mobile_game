@@ -1,0 +1,18 @@
+[
+  {
+    "processesId": 0,
+    "text": "사장실에서 또 호출이 있었다. 상황이 너무나도 심각해졌고 많은 사람들이 애를 쓰고 있지만 진전이 없었다. 사장은 아는 것이 있으면 말해달라며 간곡히 부탁을 하기도 했다. 나는 사장실을 나와 내 연구실을 향해 터벅터벅 걸어가며 생각에 잠겼다.",
+    "conversation": null,
+    "choice": [
+      {
+        "case0" : null,
+        "processId": 1,
+        "subConversation" : null,
+        "subText" : null,
+        "openCal": "2019-01-20\n2019-03-02\n2020-02-26",
+        "moveJson": "EventN_02.json",
+        "database": null
+      }
+    ]
+  }
+]
